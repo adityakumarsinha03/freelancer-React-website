@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioModal2 from "./modals/PortfolioModal2";
+
 
 const PortfolioSection= ()=>{
     return(
