@@ -1,10 +1,13 @@
 import React from "react";
 import PortfolioModal1 from "./modals/PortfolioModal1";
-
+import PortfolioModal2 from "./modals/PortfolioModal2";
 import PortfolioModal3 from "./modals/PortfolioModal3";
 import PortfolioModal4 from "./modals/PortfolioModal4";
 import PortfolioModal5 from "./modals/PortfolioModal5";
-import PortfolioModal6 from "./modals/PortfolioModal6";
+import PortfolioModel6 from "./modals/PortfolioModal6";
+
+import PortfolioModel from "./modals/PortfolioModel";
+
 
 const Footer= ()=>{
     return(
@@ -48,12 +51,20 @@ const Footer= ()=>{
         </div>
 
 
-        <PortfolioModal1 title="LOG CABIN"/>
-         {/*PortfolioModal2 is called via Masterhead Section*/}
+       {/* <PortfolioModal1 title="LOG CABIN"/>
+        <PortfolioModal2 titlr="TASTY CAKE"/>
         <PortfolioModal3 title="CIRCUS TENT"/>
         <PortfolioModal4 title="CONTROLLER"/>
         <PortfolioModal5 title="LOCKED SAFE"/>
-        <PortfolioModal6 title="SUBMARINE"/>
+        <PortfolioModel6 title="SUBMARINE"/>  */}
+
+    
+        <PortfolioModel idd= "portfolioModal1" title="LOG CABIN" desc="This cabin in comfortable" img="assets/img/portfolio/cabin.png"/>
+        <PortfolioModel idd= "portfolioModal2" title="TASTY CAKE" desc="Swrawperry flavour cake" img="assets/img/portfolio/cake.png"/>
+        <PortfolioModel idd= "portfolioModal3" title="CIRCUS TENT" desc="This is Circus Tent" img="assets/img/portfolio/circus.png"/>
+        <PortfolioModel idd= "portfolioModal4" title="CONTROLLER" desc="GTA 5 game" img="assets/img/portfolio/game.png"/>
+        <PortfolioModel idd= "portfolioModal5" title="LOCKED SAFE" desc="Strongest Safe is here!!" img="assets/img/portfolio/safe.png"/>
+        <PortfolioModel idd= "portfolioModal6" title="SUBMARINE" desc="New Submariane" img="assets/img/portfolio/submarine.png"/>
 
         </div>
     )

@@ -1,8 +1,7 @@
 import React from "react";
-import PortfolioModal2 from "./modals/PortfolioModal2";
 
 const MastheadSection=()=>(
-    <header className="masthead bg-primary text-white text-center">
+    <header id= "page-top" className="masthead bg-primary text-white text-center">
             <div className="container d-flex align-items-center flex-column">
                 
                 <img className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
@@ -18,7 +17,6 @@ const MastheadSection=()=>(
                 <p className="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
             </div>
 
-            <PortfolioModal2 title="Tasty Cake"/>
         </header>
 )
 
